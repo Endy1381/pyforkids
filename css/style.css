@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.list1 {
+    font-size: 200%;
+    font-weight: 900;
+}
+
+.nav-res a {
+    color: black;
+}
+
+.nav-res a:hover{
+    color: rgb(0, 68, 255);
+}
+
+.cont {
+    background-color: black;
+    color: white;
+    width: 50%;
+    height: 100%;
+    padding-bottom: 180%;
+    opacity: 0.9;
+
+}
+
+.holder {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ulresponsive li{
+    list-style-type: none;
+}
+.ulresponsive li a{
+    color: white;
+    text-decoration: none;
+}
+
+.ulresponsive li a:hover{
+    opacity: 0.7;
+}
+.ulresponsive li a:active{
+    color: rgb(171, 255, 255);
+}
+.nv1{
+        color: rgb(171, 255, 255);
+
+}
