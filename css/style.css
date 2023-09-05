@@ -47,6 +47,45 @@
     color: rgb(171, 255, 255);
 }
 .nv1{
-        color: rgb(171, 255, 255);
+    color: rgb(171, 255, 255);
 
+}
+
+.n {
+    display: none;
+}
+
+.ulnonresponsive {
+    display: flex;
+}
+
+.ulnonresponsive li{
+    list-style-type: none;
+    margin-left: 10%;
+}
+
+.ulnonresponsive li a{
+    color: black;
+    text-decoration: none;
+}
+
+.ulnonresponsive li a:active{
+    color: rgb(0, 110, 255);
+}
+
+.ulnonresponsive li a:hover{
+    opacity: 0.7;
+}
+
+.nb1 {
+    color: rgb(0, 110, 255);
+}
+
+@media only screen and (min-width: 992px) {
+    .nav-res {
+        display: none;
+    }
+    .n {
+        display: block;
+    }
 }
