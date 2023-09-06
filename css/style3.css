@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+img {
+    max-width: 100%;
+}
+
+body {
+    background: rgb(0,164,255);
+background: linear-gradient(43deg, rgba(0,164,255,1) 33%, rgba(255,255,255,1) 33%);
+
+}
+
+.list1 {
+    font-size: 200%;
+    font-weight: 900;
+}
+
+.nav-res a {
+    color: black;
+}
+
+.nav-res a:hover{
+    color: rgb(0, 68, 255);
+}
+
+.cont {
+    background-color: black;
+    color: white;
+    width: 50%;
+    height: 100%;
+    padding-bottom: 180%;
+    opacity: 0.9;
+    display: none;
+
+}
+
+.holder {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ulresponsive li{
+    list-style-type: none;
+}
+.ulresponsive li a{
+    color: white;
+    text-decoration: none;
+}
+
+.ulresponsive li a:hover{
+    opacity: 0.7;
+}
+.ulresponsive li a:active{
+    color: rgb(171, 255, 255);
+}
+.nv1{
+    color: rgb(171, 255, 255);
+
+}
+
+.n {
+    display: none;
+}
+
+.ulnonresponsive {
+    display: flex;
+}
+
+.ulnonresponsive li{
+    list-style-type: none;
+    margin-left: 10%;
+}
+
+.ulnonresponsive li a{
+    color: black;
+    text-decoration: none;
+}
+
+.ulnonresponsive li a:active{
+    color: rgb(0, 110, 255);
+}
+
+.ulnonresponsive li a:hover{
+    opacity: 0.7;
+}
+
+.nb1 {
+    color: rgb(0, 110, 255);
+}
+
+footer {
+    margin-top: 12%;
+    background-color: rgb(36, 36, 36);
+    color: white;
+    padding: 2%;
+}
+
+@media only screen and (min-width: 992px) {
+    .nav-res {
+        display: none;
+    }
+    .n {
+        display: block;
+    }
+    body {
+        background-image: url("../assets/bg.png");
+    }
+}
