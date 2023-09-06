@@ -97,4 +97,8 @@ background: linear-gradient(43deg, rgba(0,164,255,1) 33%, rgba(255,255,255,1) 33
     .n {
         display: block;
     }
+    body {
+        background: rgb(0,164,255);
+        background: linear-gradient(90deg, rgba(0,164,255,1) 22%, rgba(255,255,255,1) 22%);
+    }
 }
