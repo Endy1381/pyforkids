@@ -1,4 +1,2 @@
 # pyforkids
- converting web template to real html and css 
-
- project 1
+i tried replicating a web dezign that is about python for kids
